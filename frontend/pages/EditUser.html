@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit User</title>
+    <link rel="stylesheet" href="../index.css">
+    <script src="../scripts/EditUser.js" defer></script>
+
+</head>
+<body>
+    <!--NAVBAR-->
+    <header class="navbar">
+    <figure class="logo">
+        CRUD APP
+    </figure>
+
+    <nav class="navlinks">
+        <a href="../index.html">Home</a>
+        <a href="./CreateUser.html">Create User</a>
+        <a href="./AllUsers.html">All user</a>
+    </nav>
+    </header>
+
+    <!--MAIN SECTION-->
+    <main class="main-container">
+        <h1>Edit User</h1>
+        <form id="edit-from" class="form">
+            <label for="fullname">FullName</label>
+            <input type="text" name="fullname :" id="fullname" placeholder="Jhon Doe" required>
+            <br>
+            <label for="email">EmailId</label>
+            <input type="email" name="email : " id="email" placeholder="jhon@example.com" required>
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="*****" minlength="6" required>
+            <br>
+            <button>Update</button>
+        </form>
+    </main>
+   
+</body>
+</html>
+

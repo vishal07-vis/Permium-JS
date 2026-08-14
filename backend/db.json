@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "fullname": "vishal raj",
+      "email": "vishala3212@gmail.com",
+      "password": "qwertyuhbgvf",
+      "id": 1
+    },
+    {
+      "fullname": "jhon DOE",
+      "email": "jhon@gmail.com",
+      "password": "12345567890",
+      "id": 2
+    },
+    {
+      "fullname": "Henry K",
+      "email": "henry@gmail.com",
+      "password": "123456788963.0",
+      "id": 3
+    },
+    {
+      "fullname": "Aman Singh",
+      "email": "aman@gmail.com",
+      "password": "569874123",
+      "id": 4
+    }
+  ]
+}
