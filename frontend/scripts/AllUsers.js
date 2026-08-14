@@ -3,7 +3,7 @@ console.log(usersContainer);
 
 async function getAllUsers() {
     try {
-        let resp = await fetch("http://localhost:5000/users");
+        let resp = await fetch("https://permium-js.onrender.com/users");
         let data = await resp.json();
         //console.log(data);
         displayUsers(data)
@@ -43,9 +43,10 @@ function displayUsers(users) {
 async function deleteUser(id) {
     
 
-    fetch(`http://localhost:5000/users/${id}`,{
+    fetch(`https://permium-js.onrender.com/users/${id}`,{
         method :"DELETE",
     
+        
     })
     alert("User Deleted")
     

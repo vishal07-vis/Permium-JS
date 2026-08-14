@@ -8,7 +8,7 @@ let id = params.get("id");
 
 async function getEditUser() {
    
-    let resp = await fetch(`http://localhost:5000/users/${id}`);
+    let resp = await fetch(`https://permium-js.onrender.com/users/${id}`);
     let data = await resp.json();
     console.log(data);
 
@@ -29,7 +29,7 @@ editForm.addEventListener("submit",  async (e) => {
         password : passwordInput.value,
     };
 
-    await fetch(`http://localhost:5000/users/${id}`, {
+    await fetch(`https://permium-js.onrender.com/users/${id}`, {
         method : "PUT",
         body : JSON.stringify(updatedData),
         headers : {
